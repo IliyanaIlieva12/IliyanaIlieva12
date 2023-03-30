@@ -17,7 +17,7 @@ namespace tattoo.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.14")
+                .HasAnnotation("ProductVersion", "6.0.15")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -271,8 +271,8 @@ namespace tattoo.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Phone")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<int>("Phone")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -287,25 +287,14 @@ namespace tattoo.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<string>("CostumerId")
+                    b.Property<string>("CustomerId")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("CustomersId")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("EmployerId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("EmployersId")
+                    b.Property<int>("EmployerId")
                         .HasColumnType("int");
 
-                    b.Property<string>("TattoId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("TattoosId")
+                    b.Property<int>("TattooId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Time")
@@ -313,11 +302,11 @@ namespace tattoo.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CustomersId");
+                    b.HasIndex("CustomerId");
 
-                    b.HasIndex("EmployersId");
+                    b.HasIndex("EmployerId");
 
-                    b.HasIndex("TattoosId");
+                    b.HasIndex("TattooId");
 
                     b.ToTable("Rezervations");
                 });
@@ -330,12 +319,8 @@ namespace tattoo.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("CategoriesId")
+                    b.Property<int>("CategorieId")
                         .HasColumnType("int");
-
-                    b.Property<string>("CategoryId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -350,14 +335,14 @@ namespace tattoo.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
+                        .HasColumnType("decimal(10,2)");
 
                     b.Property<DateTime>("RegisterON")
                         .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("CategoriesId");
+                    b.HasIndex("CategorieId");
 
                     b.ToTable("Tattoos");
                 });
@@ -417,17 +402,19 @@ namespace tattoo.Migrations
                 {
                     b.HasOne("tattoo.Data.Customer", "Customers")
                         .WithMany("Rezervations")
-                        .HasForeignKey("CustomersId");
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.HasOne("tattoo.Data.Employer", "Employers")
                         .WithMany("Rezervations")
-                        .HasForeignKey("EmployersId")
+                        .HasForeignKey("EmployerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("tattoo.Data.Tattoo", "Tattoos")
                         .WithMany("Rezervations")
-                        .HasForeignKey("TattoosId")
+                        .HasForeignKey("TattooId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -442,7 +429,7 @@ namespace tattoo.Migrations
                 {
                     b.HasOne("tattoo.Data.Categorie", "Categories")
                         .WithMany("Tattoos")
-                        .HasForeignKey("CategoriesId")
+                        .HasForeignKey("CategorieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

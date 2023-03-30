@@ -9,65 +9,149 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = tattoo
 build_property.RootNamespace = tattoo
-build_property.ProjectDir = C:\Users\STUDENTS-STEM-12\Desktop\12d\tattoo\tattoo\
+build_property.ProjectDir = C:\Users\Admin\OneDrive\Работен плот\TattooStudioInfinity\tattoo\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\STUDENTS-STEM-12\Desktop\12d\tattoo\tattoo
+build_property.MSBuildProjectDirectory = C:\Users\Admin\OneDrive\Работен плот\TattooStudioInfinity\tattoo
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Views/Categories/Create.cshtml]
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Views/Categories/Delete.cshtml]
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Categories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Views/Categories/Details.cshtml]
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Categories/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Views/Categories/Edit.cshtml]
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Views/Categories/Index.cshtml]
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Views/Home/Index.cshtml]
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Employers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Employers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Employers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Employers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Employers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Home/AboutUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Home/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Rezervations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YXRpb25zXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Views/Shared/Error.cshtml]
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Rezervations/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YXRpb25zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Rezervations/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YXRpb25zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Rezervations/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YXRpb25zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Rezervations/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YXRpb25zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Views/_ViewImports.cshtml]
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Tattoos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF0dG9vc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Tattoos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF0dG9vc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Tattoos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF0dG9vc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Tattoos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF0dG9vc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Tattoos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF0dG9vc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Views/_ViewStart.cshtml]
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/STUDENTS-STEM-12/Desktop/12d/tattoo/tattoo/Views/Shared/_Layout.cshtml]
+[C:/Users/Admin/OneDrive/Работен плот/TattooStudioInfinity/tattoo/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zfeu5hfs5g

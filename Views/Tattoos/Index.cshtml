@@ -1,0 +1,41 @@
+﻿@model IEnumerable<tattoo.Data.Tattoo>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Татуси</h1>
+@if (User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+</p>}
+<div class="conteiner">
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-sm-3">
+                <br>
+                <div class="card " style="width: 18rem;">
+                    <img class="card-img-top" src="@Html.DisplayFor(modelItem => item.ImageURL)" height="100%">
+                    <div class="card-body">
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                        <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
+                        <p class="card-subtitle">@Html.DisplayFor(modelItem => item.Price)лв</p>
+                        <a class="btn btn-primary" asp-controller="Rezervations" asp-action="Create" asp-route-id="@item.Id">Резервирай</a>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                        }
+                        else
+                        {
+                            <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
